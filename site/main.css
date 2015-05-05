@@ -5,6 +5,7 @@ h1 {
     font-size: 50px;
     line-height: 65px;
     text-align: center;
+    color: #ffffff;
 }
 
 p {
@@ -27,7 +28,7 @@ ul {
 }
 
 body {
-    background-color: #cacccc;
+    background: #cacccc url("../site/imgs/stardust_@2X.png") repeat scroll center center;
 }
 
 .footer {
