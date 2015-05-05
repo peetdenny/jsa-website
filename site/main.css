@@ -119,7 +119,26 @@ ul {
     padding-right: 20px;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
+table{
+    background-color: #686773;
+}
+
+th{
+    text-align: center;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-size: 28px;
+    background-color: #8F3BAE;
+}
+
+td{
+    text-align: left;
+    padding-left: 10px;
+}
 
 .kerbal {
     height: 45%;
