@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     color: #ffffff;
     margin: 50px 0 50px 0;
+    display: block;
 }
 
 p {
@@ -16,28 +17,38 @@ p {
  }
 
 .nav {
-    background: #bababa;
-    width: auto;
-    text-align: center;
+    background: #252429;
+    width: 100%;
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #686773;
+    border-top: 1px solid #686773;
 }
 
-.nav li{
-    display: inline;
-    padding: 0 15px 0 15px;
-    border-right: 1px solid;
-    margin: 0;
+.nav li {
+    float: left;
+}
+.nav li a{
+    padding: 8px 15px;
+    border-right: 1px solid #686773;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
 
+}
+
+.nav li a:hover{
+    color: #1EA2EC;
+    background-color: #fff;
 }
 
 .first {
     border-left: 1px solid;
 }
 
-.nav a{
-    text-decoration: none;
-    color: #130D8F;
-
-}
 
 
 body {
