@@ -37,6 +37,7 @@ h1 {
 
 .header {
     padding-bottom: 50px;
+    display: block;
 }
 
 .nav {
@@ -71,11 +72,30 @@ h1 {
 }
 
 
-
 .main-content {
     width: 100%;
-    padding-bottom: 50px;
+    padding: 0 20px 50px 20px;
+    display: block;
 
+}
+
+h2 {
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    margin: 20px;
+}
+
+
+h3 {
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: left;
+    color: #8F3BAE;
+    margin: 10px 0;
 }
 
 
@@ -93,11 +113,18 @@ p a {
     color: #8F3BAE;
 }
 
+
+.people {
+    list-style: none;
+}
+
+
 .kerbal {
     height: 45%;
     width: 45%;
     float: right;
-    margin: 0 20px;
+    padding: 0 20px;
+    margin-right: 20px;
 }
 
 .footer {
