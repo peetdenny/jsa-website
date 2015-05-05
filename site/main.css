@@ -1,34 +1,56 @@
 html, body, h1, h2, h3, h4, p, div { padding: 0; border: 0; margin: 0; font: inherit; font-size: 100%; }
 
+html {
+    height: 100%;
+}
+
+body {
+    background: #686773 url("../site/imgs/stardust_@2X.png") repeat scroll center center;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+   // height: 100%;
+    position: relative;
+}
+
+
+.logo {
+    width: 20%;
+    height: 20%;
+    padding-left: 20px;
+    margin-top: -190px;
+    float: left;
+}
+
+
+
 h1 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 60px;
+    line-height: 1.5;
     text-align: center;
     color: #ffffff;
     margin: 50px 0 50px 0;
-    display: block;
 }
 
-p {
-     font-family: 'Vollkorn', Georgia, Times, serif;
-     font-size: 16px;
-     line-height: 25px;
- }
+.header {
+    padding-bottom: 10px;
+}
 
 .nav {
     background: #252429;
     width: 100%;
     float: left;
-    margin: 0 0 10px 0;
-    padding: 0;
     list-style: none;
     border-bottom: 1px solid #686773;
     border-top: 1px solid #686773;
+    padding-bottom: 10px;
 }
 
 .nav li {
-    float: left;
+   float: left;
 }
 .nav li a{
     padding: 8px 15px;
@@ -46,15 +68,47 @@ p {
 }
 
 .first {
-    border-left: 1px solid;
+    border-left: 1px solid  #686773;
 }
 
 
 
-body {
-    background: #cacccc url("../site/imgs/stardust_@2X.png") repeat scroll center center;
+.main-content {
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+
+
+p {
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+  //  float: left;
+
+}
+
+.kerbal {
+    height: 25%;
+    width: 25%;
+    float: right;
 }
 
 .footer {
-    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    background: #252429;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #686773;
+    border-top: 1px solid #686773;
+    
+}
+
+.footer p{
+    font-size: 14px;
+    padding: 15px;
+    color: #ffffff;
 }
