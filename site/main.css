@@ -36,7 +36,7 @@ h1 {
 }
 
 .header {
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .nav {
@@ -46,7 +46,6 @@ h1 {
     list-style: none;
     border-bottom: 1px solid #686773;
     border-top: 1px solid #686773;
-    padding-bottom: 10px;
 }
 
 .nav li {
@@ -63,7 +62,7 @@ h1 {
 }
 
 .nav li a:hover{
-    color: #1EA2EC;
+    color: #4F36BB;
     background-color: #fff;
 }
 
@@ -85,13 +84,18 @@ p {
     font-family: 'Vollkorn', Georgia, Times, serif;
     font-size: 16px;
     line-height: 1.5;
-    float: left;
+    right: 0;
 
 }
 
+p a {
+    text-decoration: none;
+    color: #8F3BAE;
+}
+
 .kerbal {
-    height: 25%;
-    width: 25%;
+    height: 45%;
+    width: 45%;
     float: right;
 }
 
