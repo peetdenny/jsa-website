@@ -63,7 +63,7 @@ h1 {
 }
 
 .nav li a:hover{
-    color: #4F36BB;
+    color: #BB3678;
     background-color: #fff;
 }
 
@@ -94,7 +94,7 @@ h3 {
     font-size: 28px;
     line-height: 1.5;
     text-align: left;
-    color: #E2A0FA;
+    color: #8F3BAE;
     margin: 10px 0;
 }
 
@@ -105,12 +105,13 @@ p {
     font-size: 16px;
     line-height: 1.5;
     right: 0;
+    color: #A978BB;
 
 }
 
 p a {
     text-decoration: none;
-    color: #8F3BAE;
+    color: #BB3678;
 }
 
 
@@ -126,6 +127,7 @@ table, th, td {
 
 table{
     background-color: #686773;
+
 }
 
 th{
@@ -138,6 +140,8 @@ th{
 td{
     text-align: left;
     padding-left: 10px;
+    color: #252429;
+
 }
 
 .kerbal {
