@@ -81,11 +81,11 @@ h1 {
 
 h2 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 1.5;
     text-align: left;
     color: #ffffff;
-    margin: 20px;
+    margin: 15px;
 }
 
 
@@ -128,6 +128,7 @@ table, th, td {
 table{
     background-color: #686773;
 
+
 }
 
 th{
@@ -142,6 +143,10 @@ td{
     padding-left: 10px;
     color: #252429;
 
+}
+
+.centered-column{
+    text-align: center;
 }
 
 .kerbal {
@@ -167,5 +172,5 @@ td{
 .footer p{
     font-size: 14px;
     padding: 15px;
-    color: #ffffff;
+    color: #8F3BAE;
 }
