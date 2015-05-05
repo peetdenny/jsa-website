@@ -76,6 +76,7 @@ h1 {
     width: 100%;
     padding: 0 20px 50px 20px;
     display: block;
+    margin-top: 150px;
 
 }
 
@@ -94,7 +95,7 @@ h3 {
     font-size: 28px;
     line-height: 1.5;
     text-align: left;
-    color: #8F3BAE;
+    color: #E2A0FA;
     margin: 10px 0;
 }
 
@@ -114,8 +115,9 @@ p a {
 }
 
 
-.people {
+ul {
     list-style: none;
+    padding-right: 20px;
 }
 
 
