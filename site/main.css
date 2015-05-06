@@ -122,6 +122,7 @@ ul {
 li img {
     height: 25%;
     width: 25%;
+    border-radius: 10px;
 }
 
 table, th, td {
@@ -159,6 +160,7 @@ td{
     float: right;
     padding: 0 20px;
     margin-right: 20px;
+    border-radius: 50%;
 }
 
 .footer {
