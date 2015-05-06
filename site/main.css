@@ -117,6 +117,7 @@ p a {
 ul {
     list-style: none;
     padding-right: 20px;
+    display: table;
 }
 
 li img {
@@ -154,9 +155,18 @@ td{
     text-align: center;
 }
 
-.portrait {
-    border-radius: 60%;
+.portrait-right {
+    height: 15%;
+    width: 15%;
+    float: right;
+    border-radius: 50%;
+}
+
+.portrait-left {
+    height: 15%;
+    width: 15%;
     float: left;
+    border-radius: 50%;
 }
 
 .kerbal {
