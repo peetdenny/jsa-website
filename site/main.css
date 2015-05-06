@@ -154,6 +154,11 @@ td{
     text-align: center;
 }
 
+.portrait {
+    border-radius: 50%;
+    float: left;
+}
+
 .kerbal {
     height: 45%;
     width: 45%;
