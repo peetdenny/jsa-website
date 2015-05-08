@@ -1,4 +1,10 @@
-html, body, h1, h2, h3, h4, p, div { padding: 0; border: 0; margin: 0; font: inherit; font-size: 100%; }
+html, body, h1, h2, h3, h4, p, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
 
 html {
     height: 100%;
@@ -15,16 +21,12 @@ body {
     position: relative;
 }
 
+header {
+    display: block;
+    height: auto;
+    width: 100%;
 
-.logo {
-    height: 20%;
-    width: 20%;
-    padding-left: 20px;
-    margin-top: -190px;
-    float: left;
 }
-
-
 
 h1 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
@@ -32,28 +34,41 @@ h1 {
     line-height: 1.5;
     text-align: center;
     color: #ffffff;
-    margin: 50px 0 50px 0;
+    float: right;
 }
 
-header {
-    padding-bottom: 50px;
+#logo {
+    width: 200px;
+    height: 164px;
+    background: url("JSA New Logo2.jpg") no-repeat;
+    background-position: 0 0;
     display: block;
-    box-sizing: padding-box;
+    text-indent: -9999px;
+    border-radius: 10px;
+    text-decoration: none;
+
 }
+
+#logo:hover, #logo:active{
+    background-position: 0 -165px;
+}
+
+
 
 .nav {
     background: #252429;
     width: 100%;
-    float: left;
+   // float: left;
     list-style: none;
     border-bottom: 1px solid #686773;
     border-top: 1px solid #686773;
 }
 
 .nav li {
-   float: left;
+    float: left;
 }
-.nav li a{
+
+.nav li a {
     padding: 8px 15px;
     border-right: 1px solid #686773;
     display: block;
@@ -63,22 +78,20 @@ header {
 
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: #BB3678;
     background-color: #fff;
 }
 
 .first {
-    border-left: 1px solid  #686773;
+    border-left: 1px solid #686773;
 }
-
 
 main {
     width: 100%;
     padding: 0 20px 50px 20px;
     display: block;
     box-sizing: padding-box;
-
 
 }
 
@@ -91,7 +104,6 @@ h2 {
     margin: 15px;
 }
 
-
 h3 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 28px;
@@ -100,8 +112,6 @@ h3 {
     color: #8F3BAE;
     margin: 10px 0;
 }
-
-
 
 p {
     font-family: 'Vollkorn', Georgia, Times, serif;
@@ -115,7 +125,6 @@ p a {
     text-decoration: none;
     color: #BB3678;
 }
-
 
 ul {
     list-style: none;
@@ -134,27 +143,26 @@ table, th, td {
     border-collapse: collapse;
 }
 
-table{
+table {
     background-color: #686773;
-
 
 }
 
-th{
+th {
     text-align: center;
     font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 28px;
     background-color: #8F3BAE;
 }
 
-td{
+td {
     text-align: left;
     padding-left: 10px;
     color: #252429;
 
 }
 
-.centered-column{
+.centered-column {
     text-align: center;
 }
 
@@ -192,10 +200,10 @@ footer {
     border-bottom: 1px solid #686773;
     border-top: 1px solid #686773;
     box-sizing: border-box;
-    
+
 }
 
-footer p{
+footer p {
     font-size: 14px;
     padding: 15px;
     color: #8F3BAE;
