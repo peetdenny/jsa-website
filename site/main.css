@@ -25,7 +25,6 @@ header {
     display: block;
     height: 164px;
     width: 100%;
-    background-color: #252429;
 
 }
 
@@ -37,7 +36,7 @@ h1 {
     color: #ffffff;
     position: relative;
     width: auto;
-    height: 128px;
+    height: 112px;
     padding-top: 30px;
     box-sizing: border-box;
 }
@@ -51,7 +50,8 @@ h1 {
     text-indent: -9999px;
     text-decoration: none;
     float: left;
-    z-index: -1;
+    z-index: 2;
+    position: absolute;
 
 }
 
@@ -60,12 +60,13 @@ h1 {
 }
 
 .nav {
-    background-color: #A978BB;
+    background-color: #252429;
     list-style: none;
     position: relative;
     display: block;
     box-sizing: border-box;
     height: 36px;
+    z-index: 1;
 
 }
 
