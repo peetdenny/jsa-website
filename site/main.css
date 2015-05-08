@@ -23,18 +23,23 @@ body {
 
 header {
     display: block;
-    height: auto;
+    height: 164px;
     width: 100%;
+    background-color: #252429;
 
 }
 
 h1 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.5;
     text-align: center;
     color: #ffffff;
-    float: right;
+    position: relative;
+    width: auto;
+    height: 128px;
+    padding-top: 30px;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -44,52 +49,50 @@ h1 {
     background-position: 0 0;
     display: block;
     text-indent: -9999px;
-    border-radius: 10px;
     text-decoration: none;
+    float: left;
+    z-index: -1;
 
 }
 
-#logo:hover, #logo:active{
+#logo:hover, #logo:active {
     background-position: 0 -165px;
 }
 
-
-
 .nav {
-    background: #252429;
-    width: 100%;
-   // float: left;
+    background-color: #A978BB;
     list-style: none;
-    border-bottom: 1px solid #686773;
-    border-top: 1px solid #686773;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    height: 36px;
+
 }
 
 .nav li {
-    float: left;
+    float: right;
+
 }
 
 .nav li a {
     padding: 8px 15px;
-    border-right: 1px solid #686773;
+    border: 1px solid #686773;
     display: block;
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
+    border-collapse: collapse;
 
 }
 
 .nav li a:hover {
-    color: #BB3678;
-    background-color: #fff;
-}
-
-.first {
-    border-left: 1px solid #686773;
+    color: #ffffff;
+    background-color: #BB3678;
 }
 
 main {
     width: 100%;
-    padding: 0 20px 50px 20px;
+    padding: 20px 20px 50px 20px;
     display: block;
     box-sizing: padding-box;
 
@@ -182,8 +185,8 @@ td {
 }
 
 .kerbal {
-    height: 45%;
-    width: 45%;
+    height: auto;
+    width: 450px;
     float: right;
     padding: 0 20px;
     margin-right: 20px;
