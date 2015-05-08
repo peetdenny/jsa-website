@@ -25,6 +25,7 @@ header {
     display: block;
     height: 164px;
     width: 100%;
+    background-color: #252429;
 
 }
 
@@ -60,7 +61,7 @@ h1 {
 }
 
 .nav {
-    background-color: #252429;
+    background-color: #A978BB;
     list-style: none;
     position: relative;
     display: block;
