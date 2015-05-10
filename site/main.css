@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: #2E2E2E url("stardust_@2X.png") repeat scroll center center;
+    background: #2E2E2E url("imgs/stardust_@2X.png") repeat scroll center center;
     height: 100%;
 }
 
@@ -45,7 +45,7 @@ h1 {
 #logo {
     width: 200px;
     height: 164px;
-    background: url("JSA New Logo2.jpg") no-repeat;
+    background: url("imgs/JSA%20New%20Logo2.jpg") no-repeat;
     background-position: 0 0;
     display: block;
     text-indent: -9999px;
