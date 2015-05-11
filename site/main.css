@@ -157,7 +157,7 @@ table {
 th {
     text-align: center;
     font-family: 'Ubuntu', Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     background-color: #8F3BAE;
 }
 
@@ -166,6 +166,11 @@ td {
     padding-left: 10px;
     color: #252429;
 
+}
+
+td a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .centered-column {
