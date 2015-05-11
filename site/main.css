@@ -96,7 +96,8 @@ main {
     width: 100%;
     padding: 20px 20px 50px 20px;
     display: block;
-    box-sizing: padding-box;
+    box-sizing: border-box;
+    min-width: 600px;
 
 }
 
