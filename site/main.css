@@ -192,12 +192,21 @@ td a {
     border-radius: 50%;
 }
 
-.kerbal {
+.article-right {
     height: auto;
     width: 450px;
     float: right;
     padding: 0 20px;
     margin-right: 20px;
+    border-radius: 50%;
+}
+
+.article-left {
+    height: auto;
+    width: 450px;
+    float: left;
+    padding: 0 20px;
+    margin-left: 20px;
     border-radius: 50%;
 }
 
