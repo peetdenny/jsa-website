@@ -23,7 +23,7 @@ body {
 
 header {
     display: block;
-    height: 164px;
+    height: 200px;
     width: 100%;
     background-color: #252429;
 
@@ -37,15 +37,15 @@ h1 {
     color: #ffffff;
     position: relative;
     width: auto;
-    height: 112px;
+    height: 164px;
     padding-top: 30px;
     box-sizing: border-box;
 }
 
 #logo {
     width: 200px;
-    height: 164px;
-    background: url("imgs/JSA%20New%20Logo2.jpg") no-repeat;
+    height: 200px;
+    background: url("imgs/JSA_Logo_Sprite.jpg") no-repeat;
     background-position: 0 0;
     display: block;
     text-indent: -9999px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 #logo:hover, #logo:active {
-    background-position: 0 -165px;
+    background-position: 0 -200px;
 }
 
 .nav {
