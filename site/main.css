@@ -8,12 +8,14 @@ html, body, h1, h2, h3, h4, p, div {
 
 html {
     height: 100%;
+    margin:    0 auto;
+    max-width: 1200px;
 }
 
 body {
     background: #2E2E2E url("imgs/stardust_@2X.png") repeat scroll center center;
     height: 100%;
-    max-width: 600px;
+
 }
 
 .wrapper {
@@ -26,7 +28,6 @@ header {
     display: block;
     height: 200px;
     width: 100%;
-    background-color: #A978BB;
 
 }
 
@@ -35,7 +36,7 @@ h1 {
     font-size: 50px;
     line-height: 1.5;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     position: relative;
     width: auto;
     height: 134px;
@@ -62,7 +63,6 @@ h1 {
 }
 
 .nav {
-    background-color: #A978BB;
     list-style: none;
     position: relative;
     display: block;
@@ -82,9 +82,10 @@ h1 {
     border: 1px solid #686773;
     display: block;
     text-decoration: none;
-    font-weight: bold;
     color: #ffffff;
     border-collapse: collapse;
+    background-color: #8F3BAE;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
 
 }
 
