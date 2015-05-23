@@ -124,6 +124,15 @@ h3 {
     margin: 10px 0;
 }
 
+
+h4 {
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #8F3BAE;
+    margin: 10px 0;
+}
+
 p {
     font-family: 'Vollkorn', Georgia, Times, serif;
     font-size: 16px;
@@ -143,11 +152,6 @@ ul {
     display: table;
 }
 
-li img {
-    height: 25%;
-    width: 25%;
-    border-radius: 10px;
-}
 
 table, th, td {
     border: 1px solid black;
@@ -170,7 +174,7 @@ td {
     text-align: left;
     padding-left: 10px;
     color: #252429;
-    min-width: 110px;
+    min-width: 100px;
 
 }
 
@@ -217,6 +221,31 @@ td a {
     border-radius: 50%;
 }
 
+.gallery {
+    float: left;
+    height: auto;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    min-width: 250px;
+
+}
+
+.gallery img{
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+    display: inline;
+
+
+}
+
+. gallery h4{
+    text-align: center;
+    margin: 5px;
+}
+
 video {
     position: relative;
 
@@ -236,5 +265,6 @@ footer p {
     font-size: 14px;
     padding: 15px;
     color: #8F3BAE;
+    text-align: right;
 
 }
