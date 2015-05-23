@@ -8,14 +8,16 @@ html, body, h1, h2, h3, h4, p, div {
 
 html {
     height: 100%;
-    margin:    0 auto;
+    margin: 0 auto;
     max-width: 1200px;
     min-width: 600px;
+
 }
 
 body {
     background: #2E2E2E url("imgs/stardust_@2X.png") repeat scroll center center;
     height: 100%;
+
 
 }
 
@@ -73,7 +75,6 @@ h1 {
     height: 36px;
     z-index: 1;
 
-
 }
 
 .nav li {
@@ -129,7 +130,6 @@ h3 {
     margin: 10px 0;
 }
 
-
 h4 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
     font-size: 22px;
@@ -156,7 +156,6 @@ ul {
     padding-right: 20px;
     display: table;
 }
-
 
 table, th, td {
     border: 1px solid black;
@@ -237,16 +236,15 @@ td a {
 
 }
 
-.gallery img{
+.gallery img {
     height: auto;
     width: 150px;
     border-radius: 10px;
     display: inline;
 
-
 }
 
-. gallery h4{
+. gallery h4 {
     text-align: center;
     margin: 5px;
 }
@@ -256,7 +254,7 @@ video {
 
 }
 
-footer .push{
+footer .push {
     height: 50px;
 }
 
